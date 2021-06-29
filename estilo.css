@@ -61,7 +61,6 @@ strong {
   width: 800px;
   min-height: 100vh;
   margin: 0 auto;
-
 }
 
 #cabecalho-pagina {
@@ -85,7 +84,7 @@ strong {
   grid-row: 3/4;
 }
 
-html body{
+html body {
   min-height: 100vh;
 }
 
@@ -131,7 +130,7 @@ article {
 
 }
 
-#rodape-pagina img{
+#rodape-pagina img {
   align-self: center;
   margin: 46px 15px 25px 0px;
 }
@@ -180,17 +179,15 @@ article {
 /* coloque aqui a media query para sobrescrever o valor
    das custom properties para o modo escuro */
 
-   @media (prefers-color-scheme: dark) {
-    :root {
-      --cor-do-texto: #eee;
-      --cor-bg-body: #000;
-      --cor-bg-rec1: #848bc9;
-      --cor-bg-rec2: #562ca5;
-      --cor-bg-card: rgba(0, 36, 104, 0.2);
-      --cor-font-title: rgb(236, 68, 96);
-      --cor-borda-rec: #302f3b;
-      --cor-borda-card: #546070;
-      
-    
-    }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-do-texto: #eee;
+    --cor-bg-body: #000;
+    --cor-bg-rec1: #848bc9;
+    --cor-bg-rec2: #562ca5;
+    --cor-bg-card: rgba(0, 36, 104, 0.2);
+    --cor-font-title: rgb(236, 68, 96);
+    --cor-borda-rec: #302f3b;
+    --cor-borda-card: #546070;
   }
+}
